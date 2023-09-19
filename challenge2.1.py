@@ -1,14 +1,11 @@
-# 1.1 implement a recursive function to calculate the foctorial of a given nubmer
+class playar():
+  def play(self):
+    print("the player is playing cricter.")
 
+class Batsman(player):
+  def play(self):
+    print("The batsman is batting")
 
-def fact_rec(n):
-  if n == 0 or n == 1:
-    return 1
-  else:
-    return n * fact_rec(n - 1)
+Batsman=Batsman()
+Batsman.play()  
 
-
-number = int(input("ENTER A VALUE: "))
-res = fact_rec(number)
-
-print("The factorial of {} is {}.".format(number, res))
